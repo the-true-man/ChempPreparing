@@ -6,6 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DBC76CE32D1953BC00CD96E5 /* SessionsPreparing3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76CE12D1953BC00CD96E5 /* SessionsPreparing3Tests.swift */; };
+		DBC76CEA2D1953BC00CD96E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC76CE42D1953BC00CD96E5 /* Preview Assets.xcassets */; };
+		DBC76CEB2D1953BC00CD96E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC76CE62D1953BC00CD96E5 /* Assets.xcassets */; };
+		DBC76CED2D1953BC00CD96E5 /* SessionsPreparing3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76CE82D1953BC00CD96E5 /* SessionsPreparing3App.swift */; };
+		DBC76CF12D1953BC00CD96E5 /* SessionsPreparing3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76CEE2D1953BC00CD96E5 /* SessionsPreparing3UITests.swift */; };
+		DBC76CF22D1953BC00CD96E5 /* SessionsPreparing3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76CEF2D1953BC00CD96E5 /* SessionsPreparing3UITestsLaunchTests.swift */; };
+		DBC76CF82D19549300CD96E5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76CF72D19549300CD96E5 /* LoginView.swift */; };
+		DBC76CFC2D19553C00CD96E5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76CFB2D19553C00CD96E5 /* CustomTextField.swift */; };
+		DBC76CFF2D1956EA00CD96E5 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76CFE2D1956EA00CD96E5 /* CustomTextFieldStyle.swift */; };
+		DBC76D022D195CB000CD96E5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76D012D195CB000CD96E5 /* String.swift */; };
+		DBC76D042D195CFD00CD96E5 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76D032D195CFD00CD96E5 /* View.swift */; };
+		DBC76D072D195D3B00CD96E5 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC76D062D195D3B00CD96E5 /* SupabaseService.swift */; };
+		DBC76D0A2D195D5700CD96E5 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = DBC76D092D195D5700CD96E5 /* Auth */; };
+		DBC76D0C2D195D5700CD96E5 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = DBC76D0B2D195D5700CD96E5 /* Functions */; };
+		DBC76D0E2D195D5700CD96E5 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = DBC76D0D2D195D5700CD96E5 /* PostgREST */; };
+		DBC76D102D195D5700CD96E5 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = DBC76D0F2D195D5700CD96E5 /* Realtime */; };
+		DBC76D122D195D5700CD96E5 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = DBC76D112D195D5700CD96E5 /* Storage */; };
+		DBC76D142D195D5700CD96E5 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = DBC76D132D195D5700CD96E5 /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DBC76CC52D1953A400CD96E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,31 +48,31 @@
 		DBC76CB42D1953A300CD96E5 /* SessionsPreparing3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SessionsPreparing3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC76CC42D1953A400CD96E5 /* SessionsPreparing3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SessionsPreparing3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC76CCE2D1953A400CD96E5 /* SessionsPreparing3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SessionsPreparing3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC76CE12D1953BC00CD96E5 /* SessionsPreparing3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsPreparing3Tests.swift; sourceTree = "<group>"; };
+		DBC76CE42D1953BC00CD96E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBC76CE62D1953BC00CD96E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC76CE82D1953BC00CD96E5 /* SessionsPreparing3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsPreparing3App.swift; sourceTree = "<group>"; };
+		DBC76CEE2D1953BC00CD96E5 /* SessionsPreparing3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsPreparing3UITests.swift; sourceTree = "<group>"; };
+		DBC76CEF2D1953BC00CD96E5 /* SessionsPreparing3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsPreparing3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBC76CF72D19549300CD96E5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DBC76CFB2D19553C00CD96E5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DBC76CFE2D1956EA00CD96E5 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		DBC76D012D195CB000CD96E5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DBC76D032D195CFD00CD96E5 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		DBC76D062D195D3B00CD96E5 /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DBC76CB62D1953A300CD96E5 /* SessionsPreparing3 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SessionsPreparing3;
-			sourceTree = "<group>";
-		};
-		DBC76CC72D1953A400CD96E5 /* SessionsPreparing3Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SessionsPreparing3Tests;
-			sourceTree = "<group>";
-		};
-		DBC76CD12D1953A400CD96E5 /* SessionsPreparing3UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SessionsPreparing3UITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DBC76CB12D1953A300CD96E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC76D0E2D195D5700CD96E5 /* PostgREST in Frameworks */,
+				DBC76D0C2D195D5700CD96E5 /* Functions in Frameworks */,
+				DBC76D142D195D5700CD96E5 /* Supabase in Frameworks */,
+				DBC76D0A2D195D5700CD96E5 /* Auth in Frameworks */,
+				DBC76D122D195D5700CD96E5 /* Storage in Frameworks */,
+				DBC76D102D195D5700CD96E5 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +96,9 @@
 		DBC76CAB2D1953A300CD96E5 = {
 			isa = PBXGroup;
 			children = (
-				DBC76CB62D1953A300CD96E5 /* SessionsPreparing3 */,
-				DBC76CC72D1953A400CD96E5 /* SessionsPreparing3Tests */,
-				DBC76CD12D1953A400CD96E5 /* SessionsPreparing3UITests */,
+				DBC76CE92D1953BC00CD96E5 /* SessionsPreparing3 */,
+				DBC76CE22D1953BC00CD96E5 /* SessionsPreparing3Tests */,
+				DBC76CF02D1953BC00CD96E5 /* SessionsPreparing3UITests */,
 				DBC76CB52D1953A300CD96E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +111,111 @@
 				DBC76CCE2D1953A400CD96E5 /* SessionsPreparing3UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC76CE22D1953BC00CD96E5 /* SessionsPreparing3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CE12D1953BC00CD96E5 /* SessionsPreparing3Tests.swift */,
+			);
+			path = SessionsPreparing3Tests;
+			sourceTree = "<group>";
+		};
+		DBC76CE52D1953BC00CD96E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CE42D1953BC00CD96E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBC76CE92D1953BC00CD96E5 /* SessionsPreparing3 */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76D052D195D2C00CD96E5 /* Service */,
+				DBC76D002D195CAA00CD96E5 /* Extensions */,
+				DBC76CFA2D19553000CD96E5 /* Components */,
+				DBC76CF62D1953DB00CD96E5 /* Core */,
+				DBC76CF42D1953D200CD96E5 /* App */,
+				DBC76CF32D1953C500CD96E5 /* Resources */,
+				DBC76CE52D1953BC00CD96E5 /* Preview Content */,
+			);
+			path = SessionsPreparing3;
+			sourceTree = "<group>";
+		};
+		DBC76CF02D1953BC00CD96E5 /* SessionsPreparing3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CEE2D1953BC00CD96E5 /* SessionsPreparing3UITests.swift */,
+				DBC76CEF2D1953BC00CD96E5 /* SessionsPreparing3UITestsLaunchTests.swift */,
+			);
+			path = SessionsPreparing3UITests;
+			sourceTree = "<group>";
+		};
+		DBC76CF32D1953C500CD96E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CFD2D1956E100CD96E5 /* Styles */,
+				DBC76CE62D1953BC00CD96E5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBC76CF42D1953D200CD96E5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CE82D1953BC00CD96E5 /* SessionsPreparing3App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DBC76CF52D1953D600CD96E5 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CF72D19549300CD96E5 /* LoginView.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		DBC76CF62D1953DB00CD96E5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CF52D1953D600CD96E5 /* LogIn */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DBC76CFA2D19553000CD96E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CFB2D19553C00CD96E5 /* CustomTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DBC76CFD2D1956E100CD96E5 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76CFE2D1956EA00CD96E5 /* CustomTextFieldStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		DBC76D002D195CAA00CD96E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76D012D195CB000CD96E5 /* String.swift */,
+				DBC76D032D195CFD00CD96E5 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DBC76D052D195D2C00CD96E5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DBC76D062D195D3B00CD96E5 /* SupabaseService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +233,14 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				DBC76CB62D1953A300CD96E5 /* SessionsPreparing3 */,
-			);
 			name = SessionsPreparing3;
 			packageProductDependencies = (
+				DBC76D092D195D5700CD96E5 /* Auth */,
+				DBC76D0B2D195D5700CD96E5 /* Functions */,
+				DBC76D0D2D195D5700CD96E5 /* PostgREST */,
+				DBC76D0F2D195D5700CD96E5 /* Realtime */,
+				DBC76D112D195D5700CD96E5 /* Storage */,
+				DBC76D132D195D5700CD96E5 /* Supabase */,
 			);
 			productName = SessionsPreparing3;
 			productReference = DBC76CB42D1953A300CD96E5 /* SessionsPreparing3.app */;
@@ -129,9 +258,6 @@
 			);
 			dependencies = (
 				DBC76CC62D1953A400CD96E5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				DBC76CC72D1953A400CD96E5 /* SessionsPreparing3Tests */,
 			);
 			name = SessionsPreparing3Tests;
 			packageProductDependencies = (
@@ -152,9 +278,6 @@
 			);
 			dependencies = (
 				DBC76CD02D1953A400CD96E5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				DBC76CD12D1953A400CD96E5 /* SessionsPreparing3UITests */,
 			);
 			name = SessionsPreparing3UITests;
 			packageProductDependencies = (
@@ -195,6 +318,9 @@
 			);
 			mainGroup = DBC76CAB2D1953A300CD96E5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DBC76D082D195D5700CD96E5 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DBC76CB52D1953A300CD96E5 /* Products */;
 			projectDirPath = "";
@@ -212,6 +338,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC76CEA2D1953BC00CD96E5 /* Preview Assets.xcassets in Resources */,
+				DBC76CEB2D1953BC00CD96E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +364,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC76CF82D19549300CD96E5 /* LoginView.swift in Sources */,
+				DBC76D072D195D3B00CD96E5 /* SupabaseService.swift in Sources */,
+				DBC76CED2D1953BC00CD96E5 /* SessionsPreparing3App.swift in Sources */,
+				DBC76D042D195CFD00CD96E5 /* View.swift in Sources */,
+				DBC76D022D195CB000CD96E5 /* String.swift in Sources */,
+				DBC76CFF2D1956EA00CD96E5 /* CustomTextFieldStyle.swift in Sources */,
+				DBC76CFC2D19553C00CD96E5 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC76CE32D1953BC00CD96E5 /* SessionsPreparing3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC76CF12D1953BC00CD96E5 /* SessionsPreparing3UITests.swift in Sources */,
+				DBC76CF22D1953BC00CD96E5 /* SessionsPreparing3UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +696,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DBC76D082D195D5700CD96E5 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBC76D092D195D5700CD96E5 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBC76D082D195D5700CD96E5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		DBC76D0B2D195D5700CD96E5 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBC76D082D195D5700CD96E5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		DBC76D0D2D195D5700CD96E5 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBC76D082D195D5700CD96E5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		DBC76D0F2D195D5700CD96E5 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBC76D082D195D5700CD96E5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		DBC76D112D195D5700CD96E5 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBC76D082D195D5700CD96E5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		DBC76D132D195D5700CD96E5 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBC76D082D195D5700CD96E5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DBC76CAC2D1953A300CD96E5 /* Project object */;
 }
