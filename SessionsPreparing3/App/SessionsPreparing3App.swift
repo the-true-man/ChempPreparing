@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct SessionsPreparing3App: App {
+    
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            Onboards()
         }
     }
 }

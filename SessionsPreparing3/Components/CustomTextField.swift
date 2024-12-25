@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct CustomTextField: View {
+    
     var label: String
     var placeholder: String
-    @Binding var text: String
     let isSecure: Bool
-    @FocusState var isFocused: Bool
-
     @State var showPassword: Bool = false
+    @FocusState var isFocused: Bool
+    @Binding var text: String
+    
     init(label: String, placeholder: String, text: Binding<String>, isSecure: Bool = false) {
         self.label = label
         self.placeholder = placeholder
@@ -30,18 +31,35 @@ struct CustomTextField: View {
                 Spacer()
                     .frame(height: 12)
                 if(!isSecure){
-                    TextField(placeholder, text: $text)
-                        .textFieldStyle(CustomTextFieldStyle())
+                    ZStack(alignment: .leading){
+                        TextField("", text: $text)
+                            .textFieldStyle(CustomTextFieldStyle())
+                        if(text.isEmpty){
+                            Text(placeholder)
+                                .font(.system(size: 14))
+                                .foregroundColor(.hint)
+                                .padding(.horizontal, 14)
+                        }
+                    }
                 }
                 else{
+                    
                     ZStack(alignment: .trailing){
-                        if(showPassword){
-                            TextField(placeholder, text: $text)
-                                .textFieldStyle(CustomTextFieldStyle())
-                        }
-                        else{
-                            SecureField(placeholder, text: $text)
-                                .textFieldStyle(CustomTextFieldStyle())
+                        ZStack(alignment: .leading){
+                            if(showPassword){
+                                TextField("", text: $text)
+                                    .textFieldStyle(CustomTextFieldStyle())
+                            }
+                            else{
+                                SecureField("", text: $text)
+                                    .textFieldStyle(CustomTextFieldStyle())
+                            }
+                            if(text.isEmpty){
+                                Text(placeholder)
+                                    .font(.system(size: 14))
+                                    .foregroundColor(.hint)
+                                    .padding(.horizontal, 14)
+                            }
                         }
                         Button(action: {
                             showPassword.toggle()
@@ -62,5 +80,5 @@ struct CustomTextField: View {
 }
 
 #Preview {
-    CustomTextField(label: "Email", placeholder: "xyz@gmail.com", text: .constant(""), isSecure: true)
+    CustomTextField(label: "Email", placeholder: "••••••••", text: .constant(""), isSecure: true)
 }

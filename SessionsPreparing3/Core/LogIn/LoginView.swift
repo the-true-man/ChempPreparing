@@ -21,7 +21,7 @@ struct LoginView: View {
                 Spacer()
                 Text("Привет!")
                     .foregroundColor(.text)
-                    .font(.system(size: 32))
+                    .font(.custom("new-peninim-mt-inclined",size: 32))
                 Spacer()
                     .frame(height: 8)
                 Text("Заполните Свои данные или\nпродолжите через социальные медиа".capitalized)
@@ -33,7 +33,7 @@ struct LoginView: View {
                 CustomTextField(label: "Email", placeholder: "xyz@gmail.com", text: $email)
                 Spacer()
                     .frame(height: 26)
-                CustomTextField(label: "Пароль", placeholder: "********", text: $password, isSecure: true)
+                CustomTextField(label: "Пароль", placeholder: "••••••••", text: $password, isSecure: true)
                 Spacer()
                     .frame(height: 16)
                 HStack{
@@ -76,7 +76,8 @@ struct LoginView: View {
             }
             .ignoresSafeArea(.all)
             .padding(.horizontal, 20)
-            .navigationDestination(isPresented: $isNavigate) { EmptyView()
+            .background(.block)
+            .navigationDestination(isPresented: $isNavigate) { Onboards()
                 .navigationBarBackButtonHidden(true)}
         }
         
@@ -98,7 +99,7 @@ extension LoginView {
             printAlert(message: "Некорректный email")
             return
         }
-        if password.validatePassword() {
+        if !password.validatePassword() {
             printAlert(message: "Не верный формат пароля")
             return
         }

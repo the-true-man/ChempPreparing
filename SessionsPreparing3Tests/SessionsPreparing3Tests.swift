@@ -9,15 +9,6 @@ import XCTest
 @testable import SessionsPreparing3
 
 final class SessionsPreparing3Tests: XCTestCase {
-
-    override func setUpWithError() throws {
-        
-    }
-
-    override func tearDownWithError() throws {
-
-    }
-
     func testValidateEmail() throws {
         XCTAssertTrue("test@test.com".validateEmail())
         XCTAssertFalse("test@test.".validateEmail())
